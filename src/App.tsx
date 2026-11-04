@@ -10,14 +10,14 @@ import { MdErrorOutline } from "react-icons/md"
 function App() {
 
   return (
-    <div className='min-h-screen max-w-screen flex flex-col p-7'>
+    <div className='min-h-screen max-w-screen flex flex-col p-7 bg-[#e1e1e17b]'>
       <nav className='flex justify-between sticky top-0 w-full min-h-25 items-center'>
         <div className='flex flex-col gap-2 ml-5 '>
           <h1 className='text-black text-4xl font-medium'>My Task</h1>
           <h3 className='text-gray-500 text-l font-light'>Manage daily tasks</h3>
         </div>
         <div className='flex flex-row gap-3'>
-          <button className='flex flex-row items-center gap-1 px-3 py-1.5 border border-[#d9dce0] rounded-sm bg-[#e9eff4]'>
+          <button className='flex flex-row items-center gap-1 px-3 py-1.5  rounded-sm bg-white'>
            <HiAdjustmentsHorizontal /> Filter
           </button>
           <button className=' flex flex-row items-center gap-1 px-2 py-1.5 rounded-sm bg-[#2463EB] text-white font-light'>
@@ -25,8 +25,8 @@ function App() {
           </button>
         </div>
       </nav>
-      <div className='w-full h-35 bg-[#e9eff47c] flex flex-row justify-between gap-4 p-4 rounded-xl'>{/* overview content */}
-        <div className='flex flex-row justify-between items-center p-4 w-1/3 bg-white border border-[#d9dce0] rounded-xl'>
+      <div className='w-full h-35 bg-white flex flex-row justify-between gap-4 p-4 rounded-xl'>{/* overview content */}
+        <div className='flex flex-row justify-between items-center p-5 w-1/3 bg-white border border-[#d9dce0] rounded-xl'>
           <div className='text-[#2463EB] bg-[#2463eb56] text-5xl border  rounded-sm p-2 '><RiListCheck3 /></div>
           <div className='flex flex-col text-center'>
             <h4 className='text-gray-500 text-l font-light'>Total Task</h4>
@@ -49,7 +49,7 @@ function App() {
         </div>
       </div>
       <div className='flex flex-row flex-wrap'>{/* task content */}
-        <div className='flex flex-col justify-around bg-[#e9eff47c] border border-[#d9dce0] rounded-xl p-4 h-50 w-1/4 m-6'>{/* task container */}
+        <div className='flex flex-col justify-around bg-white border border-[#d9dce0] rounded-xl p-4 h-50 w-2/7 m-6'>{/* task container */}
           <div className='flex flex-row justify-between text-sm'>
           <h2>Priority</h2>
           <div className='flex flex-row items-center rounded-sm py-0.5 px-1.5 gap-1 text-[#12b857] bg-[#00ff6a5c]'>
