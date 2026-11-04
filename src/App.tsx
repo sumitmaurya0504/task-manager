@@ -27,21 +27,21 @@ function App() {
       </nav>
       <div className='w-full h-35 bg-[#e9eff47c] flex flex-row justify-between gap-4 p-4 rounded-xl'>{/* overview content */}
         <div className='flex flex-row justify-between items-center p-4 w-1/3 bg-white border border-[#d9dce0] rounded-xl'>
-          <div className='text-5xl border  rounded-sm p-2 '><RiListCheck3 /></div>
+          <div className='text-[#2463EB] bg-[#2463eb56] text-5xl border  rounded-sm p-2 '><RiListCheck3 /></div>
           <div className='flex flex-col text-center'>
             <h4 className='text-gray-500 text-l font-light'>Total Task</h4>
             <h3>0</h3>
           </div>
         </div>
         <div className='flex flex-row justify-between items-center p-4 w-1/3 bg-white border border-[#d9dce0] rounded-xl'>
-          <div className='text-5xl border  rounded-sm p-2 '><GiProgression /></div>
+          <div className='text-[#0ea50e] bg-[#0ea50e50] text-5xl border  rounded-sm p-2 '><GiProgression /></div>
           <div className='flex flex-col text-center'>
             <h4 className='text-gray-500 text-l font-light'>Completed Task</h4>
             <h3>0</h3>
           </div>
         </div>
         <div className='flex flex-row justify-between items-center p-4 w-1/3 bg-white border border-[#d9dce0] rounded-xl'>
-          <div className='text-5xl border  rounded-sm p-2 '><MdErrorOutline /></div>
+          <div className='text-[#fb8500] bg-[#fb860046] text-5xl border  rounded-sm p-2 '><MdErrorOutline /></div>
           <div className='flex flex-col text-center'>
             <h4 className='text-gray-500 text-l font-light'>Overdue Task</h4>
             <h3>0</h3>
@@ -52,7 +52,7 @@ function App() {
         <div className='flex flex-col justify-around bg-[#e9eff47c] border border-[#d9dce0] rounded-xl p-4 h-50 w-1/4 m-6'>{/* task container */}
           <div className='flex flex-row justify-between text-sm'>
           <h2>Priority</h2>
-          <div className='flex flex-row items-center rounded-sm py-0.5 px-1.5 gap-1 text-[#0ed05f] bg-[#00ff6a5c]'>
+          <div className='flex flex-row items-center rounded-sm py-0.5 px-1.5 gap-1 text-[#12b857] bg-[#00ff6a5c]'>
           <h2>status </h2>
             <button className='cursor-pointer'><LuChevronDown /></button>
           </div>
@@ -63,7 +63,7 @@ function App() {
           </div>
           <div className='flex flex-row justify-between items-center '>
             <h4 className='font-light text-sm'>due to: 5 Apr</h4>
-            <div className='flex flex-row items-center text-sm  rounded-sm py-0.5 px-1.5 gap-1 text-[#0ed05f] bg-[#00ff6a5c]'>
+            <div className='flex flex-row items-center text-sm  rounded-sm py-0.5 px-1.5 gap-1 text-[#12b857] bg-[#00ff6a5c]'>
             <h4>progress</h4>
             <button className='cursor-pointer'><LuChevronDown /></button>
             </div>
